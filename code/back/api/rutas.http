@@ -1,0 +1,28 @@
+GET http://127.0.0.1:5079/api/test
+
+###
+
+POST http://127.0.0.1:5079/api/programa
+content-type: application/json
+
+{
+    "fecha_inicial": "2024-04-01",
+    "fecha_final": "2024-08-01",
+    "programa": "P48",
+    "uprog": "ABO2"
+}
+
+### Consulta de programas por PBF
+POST http://localhost:5000/up/programas/pbf
+
+content-type: application/json
+
+{
+    "fecha_inicial": "2023-06-21",
+    "fecha_final": "2023-09-28",
+    "up": "ACE3",
+    "mercado": "PBF",
+    "sentido": ,
+    "agrupar": "dia"
+}
+

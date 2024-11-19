@@ -1,0 +1,418 @@
+HOJAS:
+
+    - NOMBRE: I90DIA02      
+      DESCRIPCION: Resultado de la Programación del P48
+      CONCEPTO: PROG_P48
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []  
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: QH   
+      START_DATE_QH: 2022-01-01
+
+
+    - NOMBRE: I90DIA26      
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PBF
+      CONCEPTO: PROG_PBF
+      START_HEADER: 3
+      total_columns: ['X','UPROG','OFERTA','TRANSACCION','HORA','TOTAL']
+      valid_columns: ['UPROG','OFERTA','TRANSACCION']
+      index_columns: ['UPROG','OFERTA','TRANSACCION']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []  
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31   
+      PERIODOS: H
+
+      
+    - NOMBRE: I90DIA01
+      DESCRIPCION: Resultado de la Programaci�n   Horaria del PVP
+      CONCEPTO: PROG_PVP
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31          
+      PERIODOS: H 
+
+
+    - NOMBRE: I90DIA19
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PHF-1
+      CONCEPTO: PROG_PHF1
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31   
+      PERIODOS: H       
+       
+
+    - NOMBRE: I90DIA20
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PHF-2
+      CONCEPTO: PROG_PHF2
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: H       
+
+
+    - NOMBRE: I90DIA21
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PHF-3
+      CONCEPTO: PROG_PHF3
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: H
+
+
+    - NOMBRE: I90DIA22
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PHF-4
+      CONCEPTO: PROG_PHF4
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: H
+
+
+    - NOMBRE: I90DIA23
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PHF-5
+      CONCEPTO: PROG_PHF5
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: H
+
+
+    - NOMBRE: I90DIA24
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PHF-6
+      CONCEPTO: PROG_PHF6
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: H
+
+
+    - NOMBRE: I90DIA25
+      DESCRIPCION: Resultado de la Programaci�n Horaria del PHF-7
+      CONCEPTO: PROG_PHF7
+      START_HEADER: 3
+      total_columns: ['X','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['UPROG','TIPO_OFERTA']
+      index_columns: ['UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: H
+
+
+    - NOMBRE: I90DIA03
+      DESCRIPCION: Resultado de la Resoluci�n de Restricciones en el Mercado   Diario
+      CONCEPTO: RESULT_RES
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION','','']
+      valid_columns: ['REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION']
+      index_columns: ['REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31         
+      PERIODOS: H
+
+
+    - NOMBRE: I90DIA05
+      DESCRIPCION: Resultado de la Programaci�n Horaria del Mercado de   Secundaria. Valores horarios de la asignaci�n de Banda de Regulaci�n   Secundaria
+      CONCEPTO: PROG_SEC
+      START_HEADER: 2
+      total_columns: ['X','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','','']
+      valid_columns: ['SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      index_columns: ['SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31      
+      PERIODOS: QH   
+      START_DATE_QH: 2022-01-01
+
+
+    - NOMBRE: I90DIA06
+      DESCRIPCION: Resultado de la Programaci�n Horaria del Mercado de Gesti�n   de Desv�os. Valores horarios de la energ�a asignada en el Mercado de Gesti�n   de Desv�os
+      CONCEPTO: PROG_GES_DESV
+      START_HEADER: 2
+      total_columns: ['X','SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','','']
+      valid_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      index_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2020-03-02         
+      PERIODOS: QH
+      START_DATE_QH: 2022-01-01
+
+    - NOMBRE: I90DIA06
+      DESCRIPCION: Resultado de la Programación Horaria del servicio de Energías de balance de tipo RR. Valores horarios de la energía asignada en el servicio de Energías de balance de tipo RR
+      CONCEPTO: PROG_RR
+      START_HEADER: 2
+      total_columns: ['X','SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','','']
+      valid_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      index_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2020-03-03
+      END_DATE: 2050-12-31   
+      PERIODOS: QH   
+      START_DATE_QH: 2022-01-01   
+
+
+
+
+    - NOMBRE: I90DIA07
+      DESCRIPCION: Resultado de la Programaci�n Horaria del Mercado de   Terciaria. Valores horarios de la energ�a asignada en el Mercado de Terciaria
+      CONCEPTO: PROG_TERC
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA']
+      index_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31      
+      PERIODOS: QH 
+      START_DATE_QH: 2022-01-01  
+
+
+    - NOMBRE: I90DIA08
+      DESCRIPCION: Resultado de la Resoluci�n de Restricciones en Tiempo Real
+      CONCEPTO: RESULT_TIEMPO_REAL
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION','SIGNO_ENERGIA','','']
+      valid_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION','SIGNO_ENERGIA']
+      index_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION','SIGNO_ENERGIA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31   
+      PERIODOS: QH      
+      START_DATE_QH: 2022-01-01
+
+
+    - NOMBRE: I90DIA09
+      DESCRIPCION: Precios de la Resoluci�n de Restricciones en el Mercado   Diario
+      CONCEPTO: PRE_RES_MD
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','','']
+      valid_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO']
+      index_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO']
+      COLUMNAS_APILADAS: ['HORA','PRECIO']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31      
+      PERIODOS: H   
+      
+
+
+    - NOMBRE: I90DIA10
+      DESCRIPCION: Precios de la Programaci�n Horaria del Mercado de Terciaria,   Gesti�n de Desvios y de la Resoluci�n de Restricciones en Tiempo Real
+      CONCEPTO: PRE_TER_DES_TR
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA','','']
+      valid_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      index_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      COLUMNAS_APILADAS: ['HORA','PRECIO']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2020-03-02         
+      PERIODOS: QH 
+      START_DATE_QH: 2022-01-01
+
+    - NOMBRE: I90DIA10
+      DESCRIPCION: Precios de la Programación Horaria del servicio de Energías de Balance de tipo RR, Mercado de Terciaria y de la Resolución de Restricciones en Tiempo Real
+      CONCEPTO: PRE_RR
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA','','']
+      valid_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      index_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      COLUMNAS_APILADAS: ['HORA','PRECIO']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2020-03-03
+      END_DATE: 2050-12-31     
+      PERIODOS: QH    
+      START_DATE_QH: 2022-01-01
+
+
+
+
+
+
+HOJAS_a:
+
+    - NOMBRE: I90DIA06
+      DESCRIPCION: Resultado de la Programaci�n Horaria del Mercado de Gesti�n   de Desv�os. Valores horarios de la energ�a asignada en el Mercado de Gesti�n   de Desv�os
+      CONCEPTO: PROG_GES_DESV
+      START_HEADER: 2
+      total_columns: ['X','SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','','']
+      valid_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      index_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2020-03-02         
+      PERIODOS: QH
+      START_DATE_QH: 2022-01-01
+
+    - NOMBRE: I90DIA06
+      DESCRIPCION: Resultado de la Programación Horaria del servicio de Energías de balance de tipo RR. Valores horarios de la energía asignada en el servicio de Energías de balance de tipo RR
+      CONCEPTO: PROG_RR
+      START_HEADER: 2
+      total_columns: ['X','SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA','','']
+      valid_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      index_columns: ['SESION','REDESPACHO','SENTIDO','UPROG','NUM_OFERTA','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2020-03-03
+      END_DATE: 2050-12-31   
+      PERIODOS: QH   
+      START_DATE_QH: 2022-01-01   
+
+
+
+
+    - NOMBRE: I90DIA07
+      DESCRIPCION: Resultado de la Programaci�n Horaria del Mercado de   Terciaria. Valores horarios de la energ�a asignada en el Mercado de Terciaria
+      CONCEPTO: PROG_TERC
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','','']
+      valid_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA']
+      index_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31      
+      PERIODOS: QH 
+      START_DATE_QH: 2022-01-01  
+
+
+    - NOMBRE: I90DIA08
+      DESCRIPCION: Resultado de la Resoluci�n de Restricciones en Tiempo Real
+      CONCEPTO: RESULT_TIEMPO_REAL
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION','SIGNO_ENERGIA','','']
+      valid_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION','SIGNO_ENERGIA']
+      index_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','TIPO_RESTRICCION','SIGNO_ENERGIA']
+      COLUMNAS_APILADAS: ['HORA','ENERGIA']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31   
+      PERIODOS: QH      
+      START_DATE_QH: 2022-01-01
+
+
+    - NOMBRE: I90DIA09
+      DESCRIPCION: Precios de la Resoluci�n de Restricciones en el Mercado   Diario
+      CONCEPTO: PRE_RES_MD
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','','']
+      valid_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO']
+      index_columns: ['REDESPACHO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO']
+      COLUMNAS_APILADAS: ['HORA','PRECIO']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2050-12-31      
+      PERIODOS: H   
+      
+
+
+    - NOMBRE: I90DIA10
+      DESCRIPCION: Precios de la Programaci�n Horaria del Mercado de Terciaria,   Gesti�n de Desvios y de la Resoluci�n de Restricciones en Tiempo Real
+      CONCEPTO: PRE_TER_DES_TR
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA','','']
+      valid_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      index_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      COLUMNAS_APILADAS: ['HORA','PRECIO']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2014-01-01
+      END_DATE: 2020-03-02         
+      PERIODOS: QH 
+      START_DATE_QH: 2022-01-01
+
+    - NOMBRE: I90DIA10
+      DESCRIPCION: Precios de la Programación Horaria del servicio de Energías de Balance de tipo RR, Mercado de Terciaria y de la Resolución de Restricciones en Tiempo Real
+      CONCEPTO: PRE_RR
+      START_HEADER: 2
+      total_columns: ['X','REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA','','']
+      valid_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      index_columns: ['REDESPACHO','TIPO','SENTIDO','UPROG','TIPO_OFERTA','TIPO_CALCULO','SIGNO_ENERGIA']
+      COLUMNAS_APILADAS: ['HORA','PRECIO']
+      DATA: []
+      EXTRAER_DATA: True
+      START_DATE: 2020-03-03
+      END_DATE: 2050-12-31     
+      PERIODOS: QH    
+      START_DATE_QH: 2022-01-01
+
+
+
+
+CALCULO_GANANCIAS:
+    COLUMNAS:
+        - UPROG
+        - FECHA
+
+
+
+
+
+
+
+

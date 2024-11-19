@@ -1,0 +1,1 @@
+En esta carpeta irá el código compilado del front en producción.

@@ -1,0 +1,38 @@
+{
+  "i90": {
+    "2023": [
+      "I90DIA_20230315.zip"
+    ]
+  },
+  "prices": {
+    "diario": {
+      "2022": [
+        "2022-01-01_precios_diario.csv"
+      ],
+      "2021": [
+        "2021-01-01_precios_diario.csv",
+        "2021-02-02_precios_diario.csv"
+      ]
+    },
+    "intradiario": {
+      "2023": [
+        "2023-01-01_precios_intradiario.csv"
+      ]
+    },
+    "rr": {
+      "2023": [
+        "2023-01-01_precios_rr.csv"
+      ]
+    },
+    "afrr": {
+      "2023": [
+        "2023-01-01_precios_secundaria.csv"
+      ]
+    },
+    "mfrr": {
+      "2023": [
+        "2023-01-01_precios_terciaria.csv"
+      ]
+    }
+  }
+}
